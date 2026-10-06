@@ -25,6 +25,8 @@ public class Main {
 
         }
         while (resultado.equals("si"));
+        System.out.println("el numero de alumnos aprobados es de " + aprobados);
+        //(Objects.equals(sexo, "m"))
 
 
     }
