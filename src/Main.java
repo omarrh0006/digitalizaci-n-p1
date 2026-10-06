@@ -8,6 +8,24 @@ public class Main {
         Scanner sc = new Scanner(System.in);
         int aprobados=0;
         String resultado= "si" ;
+        do {
+            System.out.println("introduce tu nota");
+            nota = sc.nextInt();
+            if (nota>=6){
+                aprobados= aprobados +1;
+                System.out.println("deseas seguir si/no");
+                resultado= sc.next();
+
+
+            }else{
+                System.out.println("deseas seguir si/no");
+                resultado= sc.next();
+
+            }
+
+        }
+        while (resultado.equals("si"));
+
 
     }
 }
